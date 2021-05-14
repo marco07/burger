@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="HandheldFriendly" content="true" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet"  href="css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+	<link rel="stylesheet"  href="css/style.css">
+	<title>Burger</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link" href="menu.html">Menu</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Snacks</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Drinks</a>
+		        </li>
+		      </ul>
+		      <span class="navbar-text">
+			        <i class="fa fa-shopping-cart"></i>
+			        <span class="badge bg-secondary">10</span>
+		  	  </span>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	<div class="row">
+			<section class="col-md-12">
+				<div class="container_fluid form">
+				
+				<h3 class="payment-title">Payment Details</h3>
+				<hr>
+				<form>
+					<h6 class="title-form">Payment Option</h6>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="credit" id="credit">
+					  <label class="form-check-label" for="credit">
+					    Credir Card
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="credit" id="credit" checked>
+					  <label class="form-check-label" for="credit">
+					    Debit Card
+					  </label>
+					</div>
+					<hr>
+					<h6 class="title-form blueForm">Debit Card No</h6>
+					<input type="text" id="card" class="form-control" placeholder="0000-0000-0000-0000">
+								
+					<div class="row cvv">
+					  <div class="col">
+					  	<h6 class="title-form blueForm">CVV</h6>
+					    <input type="text" class="form-control" placeholder="0000" aria-label="cvv">
+					  </div>
+					  <div class="col">
+					  	<h6 class="title-form blueForm">Name on the Card</h6>
+					    <input type="text" class="form-control" placeholder="Marco Andrade" aria-label="Name">
+					  </div>
+					</div>
+					<hr>
+
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="card" id="card">
+					  <label class="form-check-label" for="card">
+					    Credir Card
+					  </label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="card" id="card">
+					  <label class="form-check-label" for="card">
+					    Debit Card
+					  </label>
+					</div>
+					<div class="add add-detail">
+						<a href="#" class="btn btn-secondary">Buy</a>
+					</div>
+
+				</form>
+				</div>
+			</section>
+		
+	</div>
+	
+	</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+	    animation: "slide"
+	  });
+	});
+</script>
+</body>
+</html>
